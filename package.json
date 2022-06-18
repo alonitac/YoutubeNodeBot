@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "aws-sdk": "^2.1157.0",
+    "fluent-ffmpeg": "^2.1.2",
     "node-telegram-bot-api": "^0.57.0",
     "ytdl-core": "^4.11.0",
     "ytsr": "^3.8.0"
