@@ -5,7 +5,7 @@ const ytsr = require('ytsr');
 
 
 // replace the value below with the Telegram token you receive from @BotFather
-const token = fs.readFileSync('.token');
+const token = process.env.TELEGRAM_API_TOKEN || fs.readFileSync('.token');
 
 // Create a bot that uses 'polling' to fetch new updates
 const bot = new TelegramBot(token, {polling: true});
